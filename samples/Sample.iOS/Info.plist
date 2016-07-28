@@ -9,7 +9,7 @@
 	<key>CFBundleVersion</key>
 	<string>0.0.1</string>
 	<key>MinimumOSVersion</key>
-	<string>6.0</string>
+	<string>8.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -45,5 +45,7 @@
 		<string>Icon-Small-40</string>
 		<string>Icon-Small-40@2x</string>
 	</array>
+	<key>CFBundleName</key>
+	<string>Signature</string>
 </dict>
 </plist>
