@@ -43,9 +43,9 @@ namespace Sample.Android {
 				signature.StrokeColor = Color.Black;
 
 				signature.BackgroundImageView.SetImageResource (Resource.Drawable.logo_galaxy_black_64);
-				signature.BackgroundImageView.SetAlpha (16);
+				signature.BackgroundImageView.ImageAlpha = 16;
 				signature.BackgroundImageView.SetAdjustViewBounds (true);
-				var layout = new RelativeLayout.LayoutParams (RelativeLayout.LayoutParams.FillParent, RelativeLayout.LayoutParams.FillParent);
+				var layout = new RelativeLayout.LayoutParams (ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent);
 				layout.AddRule (LayoutRules.CenterInParent);
 				layout.SetMargins (20, 20, 20, 20);
 				signature.BackgroundImageView.LayoutParameters = layout;

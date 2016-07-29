@@ -205,7 +205,7 @@ namespace SignaturePad {
 			StrokeWidth = 2f;
 
 			canvasView = new SignatureCanvasView (this.context);
-			canvasView.LayoutParameters = new RelativeLayout.LayoutParams (RelativeLayout.LayoutParams.FillParent, RelativeLayout.LayoutParams.FillParent);
+			canvasView.LayoutParameters = new RelativeLayout.LayoutParams (ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent);
 
 			//Set the attributes for painting the lines on the screen.
 			paint = new Paint ();
@@ -227,7 +227,7 @@ namespace SignaturePad {
 			//elements instead of having to redraw them every time the user touches the screen.
 			imageView = new ClearingImageView (context);
 			imageView.SetBackgroundColor (Color.Transparent);
-			imageView.LayoutParameters = new RelativeLayout.LayoutParams (RelativeLayout.LayoutParams.FillParent, RelativeLayout.LayoutParams.FillParent);
+			imageView.LayoutParameters = new RelativeLayout.LayoutParams (ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent);
 			AddView (imageView);
 
 			lblSign = new TextView (context);
@@ -250,7 +250,7 @@ namespace SignaturePad {
 			layout = new RelativeLayout.LayoutParams (RelativeLayout.LayoutParams.MatchParent, 1);
 			layout.SetMargins (10, 0, 10, 5);
 			layout.AddRule (LayoutRules.Above, lblSign.Id);
-            signatureLine.LayoutParameters = layout;
+			signatureLine.LayoutParameters = layout;
 			AddView (signatureLine);
 
 			//Display the X on the left hand side of the line where the user signs.
