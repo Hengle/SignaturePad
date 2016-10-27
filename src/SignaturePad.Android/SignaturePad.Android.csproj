@@ -14,6 +14,7 @@
     <AssemblyName>SignaturePad.Android</AssemblyName>
     <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
