@@ -179,7 +179,7 @@ namespace SignaturePad {
 		{
 			BackgroundColor = UIColor.FromRGB(225, 225, 225);
 			strokeColor = UIColor.Black;
-			StrokeWidth = 2f;
+			StrokeWidth = 4f;
 
 			Layer.ShadowColor = UIColor.Black.CGColor;
 			Layer.ShadowOffset = new CGSize (2, 2);

@@ -202,7 +202,7 @@ namespace SignaturePad {
 		{
 			BackgroundColor = Color.Black;
 			strokeColor = Color.White;
-			StrokeWidth = 2f;
+			StrokeWidth = 4f;
 
 			canvasView = new SignatureCanvasView (this.context);
 			canvasView.LayoutParameters = new RelativeLayout.LayoutParams (ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent);
